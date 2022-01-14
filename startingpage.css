@@ -1,0 +1,317 @@
+@import url("https://fonts.google.com/share?selection.family=Source%20Code%20Pro:ital,wght@1,200");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Source+Code+Pro:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Fira+Sans:wght@100&family=Source+Code+Pro:ital,wght@1,200&display=swap");
+/* 1. COMPLET WEB IN CONTAINER */
+.container {
+  display: flex;
+}
+
+/* name */
+.name {
+  text-align: center;
+  margin: 20px 12px 10px 25px;
+  color: #003049;
+}
+/* SIDEBAR */
+.sidebar {
+  background: linear-gradient(lightblue, rgb(90, 160, 230));
+  width: 15vw;
+}
+
+/* main */
+.main {
+  background: linear-gradient(#caf0f8, #edf6f9, #e9ecef);
+  width: 90vw;
+  padding: 23px;
+}
+
+/* SIDEBAR  LIST STYILING */
+.sidebar li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 33px 0px;
+  margin: 0px 80px 0px 0px;
+}
+/* SIDEBAR LISTITEM HOVER Effect */
+.sidebar li:hover {
+  background-color: lightblue;
+  border-radius: 20px;
+}
+
+/* SIDEBAR LINK a */
+.sidebar li a {
+  color: #560bad;
+  text-decoration: none;
+  font-family: "Source Code Pro", monospace;
+}
+
+/* logo */
+.logo {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px 12px 25px 62px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 20px 0px 20px 62px;
+}
+
+/* hover effect   */
+.fa:hover {
+  background: lightblue;
+}
+
+/* Facebook */
+.fa-facebook {
+  color: blue;
+}
+
+/* insta*/
+.fa-instagram {
+  color: darkred;
+}
+
+/* youtube */
+.fa-youtube {
+  color: red;
+}
+
+/* GIT HUB */
+.fa-github {
+  color: black;
+}
+
+/* words */
+.word {
+  text-align: center;
+}
+
+/* thanks */
+.greet {
+  font-family: monospace;
+  font-size: 20px;
+  margin: 20px 0px 0px 0px;
+}
+
+/* feedback */
+.feedback {
+  font-family: monospace;
+  font-size: 20px;
+  margin: 20px 0px 0px 0px;
+}
+
+/* info container */
+.infocontainer {
+  background-color: #003049;
+  height: 75vh;
+  width: 80vw;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* image */
+.AK {
+  height: 78vh;
+}
+
+/* dev info */
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: azure;
+}
+
+/* hello in info container */
+.hello {
+  font-size: 65px;
+}
+
+/* intro  in info container*/
+.intro {
+  font-size: 50px;
+}
+/* about  in info container*/
+.about {
+  margin: 10px;
+  font-family: monospace;
+  font-size: 30px;
+}
+/*ALL BUTTONS STYILING*/
+.btn {
+  padding: 9px 14px;
+  border-radius: 20px;
+  background: linear-gradient(lightblue, dodgerblue);
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 10px 3px;
+  cursor: pointer;
+}
+
+/* BTN OF BLOG Read More */
+.btn-ln {
+  font-size: 10px;
+}
+
+/* BTN-SM OF CONTACT ME */
+.btn-sm {
+  font-size: 10px;
+  padding: 7px 14px;
+  margin: 10px 0;
+}
+
+/* HOVRE Effect ON BUTTONS */
+.btn:hover {
+  background: lightblue;
+  color: dodgerblue;
+}
+
+/* MAIN SITE BOX FOR DETAILES */
+.mysite {
+  color: #003049;
+  font: normal bold 20px Arial, sans-serif;
+  margin: 27px;
+}
+
+/* ||||||||| CONTACT PAGE CSS |||||||||||||*/
+/* contact form */
+.contactform {
+  font-family: "Source Code Pro", monospace;
+  padding-top: 80px;
+  padding-left: 260px;
+}
+
+/* CONTACT FORM h1 */
+.contactform h1 {
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  padding: 12px 0;
+}
+
+/* CONTACTFORM FORM DIV */
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* CONTACTFORM form div INPUT */
+.contactform form div input {
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+
+/* EMAIL HELP INPUT */
+#emailHelp {
+  font-size: 12px;
+  color: #619ebe;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+
+/* ID = from check */
+#form-check {
+  flex-direction: row;
+}
+
+/* ID =INPUT OF CHECK BOX */
+#form-check input {
+  width: 24px;
+  margin: 2px 0px 8px 0px;
+}
+
+/*|||||||| BLOG PAGE CSS |||||||||||*/
+/* blog container */
+.blogcontainer {
+  font-family: "Fira Sans", sans-serif;
+  margin: 23px;
+}
+
+/* blog item */
+.blogitem p {
+  font-size: 18px;
+}
+
+/*|||||||||||INTRO PAGE |||||||||*/
+.devintro {
+  font-family: "Fira Sans", sans-serif;
+  margin: 30px;
+}
+
+.devinfo h2 {
+  margin: 12px;
+}
+
+.devinfo p {
+  font-size: 20px;
+}
+.skillcontainer {
+  padding: 12px;
+}
+
+.skillitem {
+  display: flex;
+  align-items: center;
+}
+.skill {
+  width: 265px;
+  height: 6px;
+  background: #ddbea9;
+}
+
+.hundered {
+  width: 270px;
+  background-color: #d00000;
+}
+
+.fifty {
+  width: 180px;
+  background-color: #003049;
+}
+
+.st {
+  width: 75px;
+  background: #619ebe;
+}
+
+.todo {
+  margin: 30px auto;
+}
+.my project {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.servece{
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  margin-top: 150px;
+}
+/* ||||service page css||||| */
+.servece h1{
+  font-size: 40px;
+}
+
+@media (max-width: 1245px) {
+  * {
+    background: linear-gradient(#caf0f8, #edf6f9, #e9ecef);
+  }
+  .sidebar {
+    transform: translate(-443px, 0px);
+    position: absolute;
+  }
+}
